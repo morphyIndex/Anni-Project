@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Happy Anniversary</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">For You ❤️</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#gift">Gift</a></li>
+      <li><a href="#lockedGift">Secret Gift</a></li>
+      <li><a href="#journey">Our Journey</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="hero animated-fade-in">
+    <h1>Happy Anniversary, My Love</h1>
+    <p>Every moment with you is a treasure. But today, I have something special for you 💝</p>
+  </section>
+
+    <section class="card-container" id="cardContainer">
+    <!-- Cards will be added by JS -->
+  </section>
+
+  <section id="lockedGift" class="locked-gift-section animated-fade-in-up">
+    <h2>🎁 Secret Surprise</h2>
+
+    <div id="giftContainer">
+      <img id="lockedGiftImg" src="https://atlas-content-cdn.pixelsquid.com/stock-images/pink-gift-box-ZeVyww2-600.jpg" alt="Gift Box" />
+    </div>
+
+    <div id="passwordPrompt" class="password-box hidden">
+      <input type="password" id="giftPassword" placeholder="Enter the secret password..." />
+      <button id="unlockBtn">Unlock</button>
+      <p id="wrongPassword" class="warning hidden">Wrong password! Try again.</p>
+    </div>
+
+    <div id="secretVideo" class="hidden">
+      <video controls>
+        <iframe width="914" height="514" src="https://www.youtube.com/embed/h3nDr-33Ikw" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <section id="journey" class="our-journey-section animated-fade-in-up">
+    <h2>💞 Our Journey</h2>
+    <div class="journey-timeline">
+      <div class="journey-card">
+        <h3>🌸 First Talk</h3>
+        <p>We started talking on that random day and random day, not knowing how much we'd come to mean to each other.</p>
+        <span>Aug 2024</span>
+      </div>
+      <div class="journey-card">
+        <h3>💬 Daily Chats</h3>
+        <p>From good morning texts to late-night talks, our bond grew stronger with each message.</p>
+        <span>Love this</span>
+      </div>
+      <div class="journey-card">
+        <h3>📸 First Video Call</h3>
+        <p>HAHAHHA this was one of the most awkward situations in my life which i won't ever forget. Who would call her new bf with her sissy in the very first time?</p>
+        <span>Aug 3, 2024(hee" not so sure)</span>
+      </div>
+      <div class="journey-card">
+        <h3>💝 Anniversary</h3>
+        <p>Despite the distance, we made it. Still loving, still strong.</p>
+        <span>August 2, 2025</span>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
